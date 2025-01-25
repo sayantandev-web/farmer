@@ -67,6 +67,7 @@ $route['api/category_wise_product'] = "api/Home/category_wise_product";
 
 $route['api/vagetable_list'] = 'api/Home/vagetable_list';
 $route['api/filter_vagetables'] = "api/Home/filter_vagetables";
+$route['api/vagetable_details'] = "api/Home/vagetable_details";
 
 
 

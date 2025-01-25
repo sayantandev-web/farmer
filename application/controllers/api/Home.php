@@ -141,19 +141,79 @@ class Home extends CI_Controller {
     public function filter_vagetables() {
         try {
             $formdata = json_decode(file_get_contents('php://input'), true);
-            $veg_id = $formdata['veg_id']; //$veg_id = 1
+            $veg_id = $formdata['veg_id'];
 
             $get_bioagressor_data = $this->db->query("SELECT * FROM product WHERE id = '".$veg_id."'")->row();
             $bioagressor = $get_bioagressor_data->category_id;
             $bioagressor = explode(',', $bioagressor);
-            $nonCommonVeg = array();
+            
+            $query = "SELECT * FROM product WHERE ";
             for($i = 0; $i < count($bioagressor); $i++) {
-                $checkVeg = $this->db->query("SELECT * FROM product WHERE instr(concat(',',category_id,','), ',$bioagressor[$i],') AND `status` = 1 AND `is_delete` = 1")->result();
+                $query .= "NOT FIND_IN_SET('".$bioagressor[$i]."', category_id) AND ";
             }
+            $query = rtrim($query, ' AND ');
+            $nonCommonVeg = $this->db->query($query)->result();
+            $vagetableList = array();
+                foreach ($nonCommonVeg as $key => $value) {
+                    $vagetableList[$key]['id'] = $value->id;
+                    $vagetableList[$key]['category_id'] = $value->category_id;
+                    $vagetableList[$key]['prod_name'] = $value->prod_name;
+                    $vagetableList[$key]['prod_description'] = $value->prod_description;
+                    $vagetableList[$key]['engrais'] = $value->engrais;
+                    $vagetableList[$key]['bio_aggresseurs'] = $value->bio_aggresseurs;
+                    $vagetableList[$key]['maladies'] = $value->maladies;
+                    $vagetableList[$key]['start_period'] = $value->start_period;
+                    $vagetableList[$key]['end_period'] = $value->end_period;
+                    $vagetableList[$key]['harvest_days'] = $value->harvest_days;
+                    $vagetableList[$key]['harvest_end'] = $value->harvest_end;
+                    $vagetableList[$key]['number_harvest'] = $value->number_harvest;
+                    if(!empty($value->product_image)){
+                        $vagetableList[$key]['product_image'] = base_url().'uploads/product/'.$value->product_image;
+                    } else {
+                        $vagetableList[$key]['product_image'] = base_url().'uploads/no_image.png';
+                    }
+                    $vagetableList[$key]['created_at'] = $value->created_at;
+                    $vagetableList[$key]['update_date'] = $value->update_date;
+                    $vagetableList[$key]['status'] = $value->status;
+                    $vagetableList[$key]['is_delete'] = $value->is_delete;
+                }
 
+            $response = array('status' => 'success', 'result' => $vagetableList);
         } catch (\Exception $e) {
             $response = array('status' => 'error', 'result' => $e->getMessage());
         }
-        //echo json_encode($response);
+        echo json_encode($response);
+    }
+
+    public function vagetable_details(){
+        try {
+            $formdata = json_decode(file_get_contents('php://input'), true);
+            $veg_id = $formdata['veg_id'];
+            $getVegDetails = $this->db->query("SELECT * FROM product WHERE id = '".$veg_id."'")->row();
+            
+            $vagetableDetails = array(
+                'id' => $getVegDetails->id,
+                'category_id' => $getVegDetails->category_id,
+                'prod_name' => $getVegDetails->prod_name,
+                'prod_description' => $getVegDetails->prod_description,
+                'engrais' => $getVegDetails->engrais,
+                'bio_aggresseurs' => $getVegDetails->bio_aggresseurs,
+                'maladies' => $getVegDetails->maladies,
+                'start_period' => $getVegDetails->start_period,
+                'end_period' => $getVegDetails->end_period,
+                'harvest_days' => $getVegDetails->harvest_days,
+                'harvest_end' => $getVegDetails->harvest_end,
+                'number_harvest' => $getVegDetails->number_harvest,
+                'product_image' => !empty($getVegDetails->product_image) ? base_url().'uploads/product/'.$getVegDetails->product_image : base_url().'uploads/no_image.png',
+                'created_at' => $getVegDetails->created_at,
+                'update_date' => $getVegDetails->update_date,
+                'status' => $getVegDetails->status,
+                'is_delete' => $getVegDetails->is_delete
+            );
+            $response = array('status' => 'success', 'result' => $vagetableDetails);
+        } catch (\Exception $e) {
+            $response = array('status' => 'error', 'result' => $e->getMessage());
+        }
+        echo json_encode($response);
     }
 }
