@@ -1,0 +1,451 @@
+/*************** Desktop 4k ***************/
+@media screen and (min-width: 2560px) {
+
+    /* custom page */
+    section.banner-section .cscard .banner img {
+        object-fit: cover;
+    }
+
+    #offcanvaspreview {
+        margin: 30px 950px;
+    }
+
+    section.banner-section .cnc-banner .banner-cover {
+        display: none;
+    }
+
+    section.banner-section .cnc-banner .banner-cover.wide-screen {
+        height: 700px;
+        object-fit: cover;
+        display: block;
+    }
+
+}
+
+/*************** Desktop big ***************/
+@media screen and (min-width: 1440px) {
+    section.card-modific fieldset.card-option .col-lg-3.card {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+}
+
+/*************** Desktop ***************/
+@media screen and (min-width: 769px) and (max-width: 1439px) {
+
+    section.aos-section .aos-left ul li:nth-child(1)::before,
+    section.aos-section .aos-left ul li:nth-last-child(1)::before {
+        width: 140px;
+    }
+
+    section.aos-section .aos-left ul li:nth-child(2)::before {
+        width: 170px;
+    }
+
+    .category-products .cpd .cpd-block img {
+        height: 230px;
+        object-fit: cover;
+    }
+
+    /* custom page */
+    section.card-modific #progressbar li label {
+        font-size: 12px;
+    }
+
+    section.card-modific #progressbar li:after {
+        width: 85%;
+        left: -85%;
+    }
+
+    #offcanvaspreview {
+        margin: 30px 300px;
+    }
+
+    section.card-modific fieldset.payment .pay-option {
+        padding: 0 15px;
+    }
+
+    section.card-modific fieldset.payment .payslip .payslip-back {
+        padding: 0 20px;
+    }
+
+    /* cart page */
+    section.cart .payment .payslip-back {
+        padding: 0 30px;
+    }
+
+    section.cart .cart-pay {
+        padding: 0;
+    }
+}
+
+/*************** Tablet ***************/
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .banner-section .banner-text,
+    main,
+    footer .footer-block {
+        padding: 0 30px;
+    }
+
+    header .navbar {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    header .navbar-block {
+        padding: 5px 15px;
+    }
+
+    section.banner-section .owl-carousel .owl-item img {
+        object-fit: cover;
+    }
+
+    section.banner-section .banner-text h1 {
+        font-size: 35px;
+    }
+
+    section.banner-section .banner-text p {
+        font-size: 16px;
+    }
+
+    section.advertising-section .video-block {
+        padding: 0;
+    }
+
+    section.categories-section .categories-block {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    section.aos-section .aos-left ul {
+        padding: 0 !important;
+    }
+
+    section.aos-section .aos-left ul li:nth-child(1)::before,
+    section.aos-section .aos-left ul li:nth-last-child(1)::before {
+        width: 140px;
+    }
+
+    section.aos-section .aos-left ul li:nth-child(2)::before {
+        width: 170px;
+    }
+
+    .category-products .cpd .cpd-block img {
+        height: 268px;
+        object-fit: cover;
+    }
+
+    footer .footer-block .footer-bottom .copyright p:nth-child(1) {
+        text-align: center;
+    }
+
+    /* custom page */
+    section.card-modific #progressbar li:after {
+        width: 85%;
+        left: -85%;
+    }
+
+    section.card-modific #progressbar li label {
+        color: transparent;
+    }
+
+    #offcanvaspreview {
+        margin: 30px 150px;
+    }
+
+    fieldset.card-custom .drag-file {
+        height: 50vh;
+        margin-bottom: 40px;
+    }
+
+    fieldset.card-custom .form-file {
+        padding: 0;
+    }
+
+    section.card-modific fieldset.preview .card-prev,
+    section.card-modific fieldset.preview .card-data {
+        padding: 0 15px;
+    }
+
+    section.card-modific fieldset.payment .pay-option {
+        padding: 0;
+    }
+
+    section.card-modific fieldset.payment .payslip .payslip-back {
+        padding: 0 20px;
+    }
+
+    section.card-modific fieldset.payment .share-product .copy-link div a {
+        font-size: 10px;
+    }
+
+    /* privacy & policy page */
+    section.privacy_policy .key_point {
+        display: none;
+    }
+
+    /* terms & conditions page */
+    section.terms_conditions .key_point {
+        display: none;
+    }
+
+    /* login and signup page */
+    .login_signup .ls_banner {
+        display: none !important;
+    }
+
+    .login_signup .ls_form {
+        align-items: start !important;
+        padding-top: 8px;
+    }
+
+    .login_signup .ls_form .form_data img {
+        margin-bottom: 100px;
+    }
+
+    /* cart page */
+    section.cart .cart-pay,
+    section.cart .payment .payslip-back {
+        margin-top: 20px;
+    }
+}
+
+/*************** Smartphone ***************/
+@media screen and (max-width: 425px) {
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .banner-section .banner-text,
+    main,
+    footer .footer-block {
+        padding: 0 30px;
+    }
+
+    header .navbar {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    header .navbar-block {
+        padding: 5px 15px;
+    }
+
+    section.banner-section .owl-carousel .owl-item img {
+        object-fit: cover;
+    }
+
+    section.banner-section .banner-text {
+        text-align: center;
+    }
+
+    section.banner-section .banner-text h1 {
+        font-size: 35px;
+        width: 100%;
+    }
+
+    section.banner-section .banner-text p {
+        font-size: 16px;
+    }
+
+    section.advertising-section .heading {
+        text-align: center !important;
+    }
+
+    section.advertising-section .video-block {
+        margin-bottom: 1.5rem;
+        padding: 0;
+    }
+
+    section.categories-section .categories-block {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    section.aos-section .aos-left ul {
+        padding: 0 !important;
+    }
+
+    section.aos-section .aos-left ul li:nth-child(1)::before,
+    section.aos-section .aos-left ul li:nth-last-child(1)::before {
+        width: 140px;
+    }
+
+    section.aos-section .aos-left ul li:nth-child(2)::before {
+        width: 170px;
+    }
+
+    .category-products .cpd .cpd-block img {
+        height: 385px;
+        object-fit: cover;
+    }
+
+    footer .footer-block .footer-bottom .lang {
+        justify-content: center !important;
+        margin-bottom: 1.5rem;
+    }
+
+    footer .footer-block .footer-bottom .social {
+        justify-content: center !important;
+        margin-top: 1.5rem;
+    }
+
+    /* custom page */
+    section.banner-section .cscard .banner img {
+        object-fit: cover;
+    }
+
+    section.card-modific #progressbar li:after {
+        left: -75%;
+    }
+
+    section.card-modific #progressbar li label {
+        color: transparent;
+    }
+
+    section.card-modific fieldset.card-option .card-inner {
+        width: 100%;
+    }
+
+    #offcanvaspreview {
+        margin: 30px 15px;
+    }
+
+    fieldset.card-custom .drag-file {
+        height: 50vh;
+        margin-bottom: 40px;
+    }
+
+    fieldset.card-custom .form-file {
+        padding: 0;
+    }
+
+    fieldset.preview .card-prev {
+        margin-bottom: 40px;
+    }
+
+    section.card-modific fieldset.card-option .card-inner {
+        align-items: center !important;
+    }
+
+    section.card-modific fieldset.preview .card-data {
+        padding: 0 40px;
+    }
+
+    section.card-modific fieldset.preview .card-prev .prev-data {
+        font-size: 14px;
+    }
+
+    section.card-modific fieldset.payment .pay-option {
+        padding: 0 15px;
+        margin-bottom: 40px;
+    }
+
+    section.card-modific fieldset.payment .pay-option .pay-option-back .pay-icons ul li img {
+        width: 40px;
+    }
+
+    section.card-modific fieldset.payment .pay-option .bank-details .col-lg-6.col-md-6.col-sm-12,
+    section.card-modific fieldset.payment .pay-option .bank-details .col-lg-3.col-md-3.col-sm-12 {
+        padding: 0;
+    }
+
+    section.card-modific fieldset.payment .payslip .payslip-back {
+        padding: 0 15px;
+    }
+
+    section.card-modific fieldset.payment .payslip .pay-balance .col-lg-6.text-start,
+    section.card-modific fieldset.payment .payslip .pay-balance .col-lg-6.text-end {
+        width: 50%;
+    }
+
+    section.card-modific fieldset.payment .share-product .copy-link div a {
+        font-size: 10px;
+    }
+
+    #offcanvasBottom {
+        display: none;
+    }
+
+    section.banner-section .cnc-banner .banner-text h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    section.banner-section .cnc-banner .banner-text p:nth-last-child(1) span {
+        font-size: 40px;
+    }
+
+    /* privacy & policy page */
+    section.privacy_policy .key_point {
+        display: none;
+    }
+
+    section.privacy_policy .note {
+        flex-direction: column;
+    }
+
+    section.banner-section .page-banner .banner-heading {
+        padding: 0 15px;
+    }
+
+    section.banner-section .page-banner .banner-heading h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    /* terms & conditions page */
+    section.terms_conditions .key_point {
+        display: none;
+    }
+
+    section.terms_conditions .note {
+        flex-direction: column;
+    }
+
+    /* login and signup page */
+    .login_signup .ls_banner {
+        display: none !important;
+    }
+
+    .login_signup .ls_form {
+        align-items: start !important;
+        padding-top: 8px;
+    }
+
+    .login_signup .ls_form .form_data img {
+        margin-bottom: 100px;
+    }
+
+    /* cart page */
+    section.cart .cart-product ul li .quantity,
+    section.cart .cart-product ul li .price {
+        flex-direction: column;
+    }
+
+    section.cart .cart-pay {
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    section.cart .cart-pay .pay-option-back .pay-icons ul li img {
+        width: 40px;
+    }
+
+    section.cart .cart-pay .bank-details .col-lg-3.col-md-3.col-sm-12 {
+        padding: 0 !important;
+    }
+
+    section.cart .payment .payslip-back {
+        padding: 0 15px;
+        margin-top: 20px;
+    }
+
+    section.cart .payment .payslip-back .col-lg-6.col-md-6.col-sm-6.text-start,
+    section.cart .payment .payslip-back .col-lg-6.col-md-6.col-sm-6.text-end {
+        width: 50%;
+    }
+}

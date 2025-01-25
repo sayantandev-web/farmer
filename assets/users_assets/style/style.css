@@ -1,0 +1,3882 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Fredericka+the+Great&family=Monoton&family=Plaster&family=Rubik+Moonrocks&display=swap');
+/*********************************************** Login Screen Style ***********************************************/
+.login-card {
+  background-color: #f7f7f7;
+  padding: 30px;
+  width: 100%;
+  max-width: 350px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.login-card img {
+  max-width: 150px;
+  object-fit: cover;
+}
+
+.login-card h2 {
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.forgot-password {
+  color: #b58b42;
+  font-size: 14px;
+  margin-bottom: 15px;
+  display: block;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.login-button {
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  height: 45px;
+  text-align: center;
+  font-weight: 600;
+  background: linear-gradient(90deg, #b58b42, #7a5a28);
+  color: white;
+}
+
+.signup-link {
+  font-size: 14px;
+}
+
+.signup-link a {
+  color: #b58b42;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+/*********************************************** SignUp Screen Style ***********************************************/
+
+.form-container {
+  background-color: #f7f7f7;
+  padding: 30px;
+  width: 100%;
+  max-width: 350px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.form-container h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #000;
+  margin-top: 20px;
+}
+
+.logo img {
+  max-width: 150px;
+  object-fit: cover;
+}
+
+.signup-button {
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  height: 45px;
+  text-align: center;
+  font-weight: 600;
+  background: linear-gradient(90deg, #b58b42, #7a5a28);
+  color: white;
+}
+
+.signup-button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.signin-link {
+  font-size: 14px;
+}
+
+.signin-link a {
+  color: #b58b42;
+  text-decoration: none;
+}
+
+.signin-link a:hover {
+  text-decoration: underline;
+}
+
+/*********************************************** Others Style ***********************************************/
+
+.input-field {
+  position: relative;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.input-field label {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #000000;
+  font-weight: 600;
+}
+
+.input-field input,
+.input-field select {
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.input-field select {
+  width: 100%;
+}
+
+.input-field .icon {
+  position: absolute;
+  right: 15px;
+  top: 65%;
+  transform: translateY(-55%);
+  color: #aaa;
+  font-size: 15px;
+}
+
+.PasswordContainer {
+  background-color: #f7f7f7;
+  padding: 30px;
+  width: 100%;
+  max-width: 350px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.PasswordContainer img {
+  max-width: 150px;
+  object-fit: cover;
+}
+
+.PasswordContainer h2 {
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.PasswordContainer .Link {
+  color: #b58b42;
+  font-size: 14px;
+  margin-bottom: 15px;
+  display: block;
+  text-decoration: none;
+}
+
+.PasswordContainer .Link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.PasswordContainer .Bottomlink {
+  font-size: 14px;
+}
+
+.PasswordContainer .Bottomlink a {
+  color: #b58b42;
+  text-decoration: none;
+}
+
+.PasswordContainer .Bottomlink a:hover {
+  text-decoration: underline;
+}
+
+.PasswordContainer .OTPSendBtn {
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  height: 45px;
+  text-align: center;
+  font-weight: 600;
+  background: linear-gradient(90deg, #b58b42, #7a5a28);
+  color: white;
+}
+
+.PasswordContainer .OTPContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+}
+
+.PasswordContainer .OTPinput {
+  font-size: 16px;
+  text-align: center;
+}
+
+.DocumentContainer {
+  background-color: #f7f7f7;
+  padding: 30px;
+  width: 100%;
+  max-width: 350px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.DocumentContainer img {
+  max-width: 150px;
+  object-fit: cover;
+}
+
+.DocumentContainer h2 {
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.DocumentContainer .SubmitBtn {
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 45px;
+  text-align: center;
+  font-weight: 600;
+  background: linear-gradient(90deg, #b58b42, #7a5a28);
+  color: white;
+  margin-bottom: 15px;
+}
+
+.DocumentContainer .SubmitBtn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.DocumentContainer .UploadData {
+  display: none;
+}
+
+.DocumentContainer .CustomFileUpload {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #000;
+  font-size: 15px;
+  width: 100%;
+}
+
+.DocumentContainer .FileChosen {
+  position: absolute;
+  bottom: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  width: 45%;
+  right: 15px;
+  font-size: 16px;
+  text-align: right;
+}
+
+.DocumentContainer .Link {
+  color: #b58b42;
+  font-size: 14px;
+  display: block;
+  text-decoration: none;
+}
+
+.DocumentContainer .Link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.DocumentContainer.DataComplete p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.DocumentContainer.DataComplete img {
+  max-width: 110px;
+  object-fit: cover;
+}
+
+/*********************************************** Dashboard Style ***********************************************/
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+::-moz-selection {
+  background: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background: #fff;
+  text-shadow: none;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.ul-base {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header {
+  display: block;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+header .header-inner {
+  width: 100%;
+  height: 70px;
+  color: #fff;
+  padding: 0 20px;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(90deg, #b58b42, #7a5a28);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .header-first-inner {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 220px);
+  align-items: center;
+  gap: 30px;
+}
+
+header .nav-btn {
+  cursor: pointer;
+  width: 40px;
+  height: 70px;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .nav-btn.nav-slider {
+  float: left;
+}
+
+header .nav-btn.search {
+  display: none;
+}
+
+header .nav-btn i {
+  vertical-align: middle;
+}
+
+header .header-logo {
+  height: 70px;
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .header-logo a {
+  background: #fff;
+  height: 70px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .header-logo img {
+  width: 150px;
+  object-fit: contain;
+  height: 40px;
+}
+
+header .header-search {
+  display: flex;
+  position: relative;
+  width: 500px;
+  height: 70px;
+  align-items: center;
+  margin-left: 15px;
+}
+
+header .header-search .search {
+  display: flex;
+  position: relative;
+  height: 70px;
+  align-items: center;
+  width: 100%;
+}
+
+header .header-search .search i {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 28px;
+  cursor: pointer;
+}
+
+header .header-search .search input[type="search"] {
+  width: 100%;
+  height: 40px;
+  padding: 0 15px 0 50px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+header .header-search .search ::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+header .header-search .search ::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+header .header-search .search :-moz-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+header .header-search .search :-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+header .header-menu {
+  float: right;
+}
+
+header .header-menu ul {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+header .header-menu ul li {
+  position: relative;
+  height: 70px;
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+header .header-menu ul li a {
+  color: #fff;
+  font-size: 15px;
+}
+
+header .header-menu ul li a:hover {
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  header .header-categories {
+    display: none;
+  }
+
+  header .header-search {
+    width: calc(100% - 440px);
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  header .header-search {
+    display: none;
+  }
+
+  header .header-menu ul li:last-child {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  header .header-inner {
+    padding: 0 12px;
+    text-align: center;
+  }
+
+  header .nav-btn {
+    background-color: rgba(0, 0, 0, 0.175);
+  }
+
+  header .header-logo {
+    float: right;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  header .header-menu {
+    display: none;
+  }
+}
+
+nav {
+  overflow-y: auto;
+  position: fixed;
+  top: 0px;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  color: #fff;
+  background-color: #f9f9f9;
+  transition: left 0.3s ease;
+  opacity: 0.9;
+  z-index: 1002;
+}
+
+nav .nav-header {
+  background: linear-gradient(90deg, #b58b42, #7a5a28);
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+nav .nav-header .logo-wrap {
+}
+
+nav .nav-header .logo-wrap .logo-text {
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+nav .nav-header a.NavHeaderCloseIcon {
+  background: #fff;
+  box-shadow: 0 0 10px #c1c1c1;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav .nav-header a.NavHeaderCloseIcon img {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+}
+
+nav .nav-categories li {
+  display: flex;
+  position: relative;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #ddd;
+}
+
+nav .nav-categories li a {
+  width: 100%;
+  padding: 0 15px;
+  text-decoration: none;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 15px;
+}
+
+nav .nav-categories li a img {
+  height: 25px;
+  width: 25px;
+  object-fit: contain;
+}
+
+nav .nav-categories li a p {
+  font-size: 15px;
+  color: #000;
+  margin: 0;
+}
+
+nav .nav-categories li a:hover {
+  background-color: rgb(255 255 255);
+  color: #b38a41;
+  font-weight: 600;
+  box-shadow: 0 10px 10px #f1f1f1;
+}
+
+nav.open {
+  left: 0px;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.275);
+  opacity: 1;
+}
+
+body:has(nav.open) .Main {
+  left: 250px;
+  position: absolute;
+  width: calc(100% - 250px);
+}
+
+.Section.Promotion,
+.Section.Home {
+  padding-top: 90px;
+  padding-left: 0;
+  padding-right: 0;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.Section .HomeTab {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+.Section .HomeTab a {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(255 255 255);
+  box-shadow: 0 0 10px #f1f1f1;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Section .HomeTab a:hover {
+  background: linear-gradient(90deg, #b58b42, #7a5a28);
+}
+
+.Section .HomeTab a:hover p {
+  color: #fff;
+}
+
+.Section .HomeTab a:hover .InActiveImg {
+  display: none;
+}
+
+.Section .HomeTab a:hover .ActiveImg {
+  display: block;
+}
+
+.Section .HomeTab a .InActiveImg,
+.Section .HomeTab a .ActiveImg {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.Section .HomeTab a .ActiveImg {
+  display: none;
+}
+
+.Section .HomeTab a p {
+  margin: 0;
+  color: #b38a41;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+}
+
+.Section .Pagination {
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #fff;
+  padding-top: 15px;
+}
+
+.Section .Pagination a {
+  text-decoration: none;
+  color: #c5a668;
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.Section .Pagination a i {
+  font-size: 20px;
+}
+
+.Section.Promotion .Card {
+  padding: 0 10px 10px 10px;
+  position: relative;
+}
+
+.Section.Promotion .Card .CardInner {
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  background: url(https://img.freepik.com/free-photo/people-concert_1160-737.jpg?t=st=1730050734~exp=1730054334~hmac=4785251…&w=900)
+    no-repeat center center / cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: relative;
+  cursor: pointer;
+  height: 200px;
+}
+
+.Section.Promotion .Card .CardInner .Cover {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: block;
+  background: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.2;
+}
+
+.Section.Promotion .Card .CardInner .Heading {
+  color: #fff;
+  z-index: 5;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.Section.Promotion .Card .CardInner .SubHeading {
+  color: #fff;
+  z-index: 5;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.Section.Promotion .Card .CardInner .IconContainer {
+  position: absolute;
+  z-index: 10;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  gap: 10px;
+}
+
+.Section.Promotion .Card .CardInner .IconContainer a {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  background: #fff;
+  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Section.Promotion .Card .CardInner .IconContainer a:nth-child(1) {
+  font-size: 15px;
+  color: #7a5a28;
+  text-decoration: none;
+}
+
+.Section.Promotion .Card .CardInner .IconContainer a:nth-child(2) {
+  font-size: 15px;
+  color: red;
+  text-decoration: none;
+}
+
+.Section.Appearance {
+  padding-top: 90px;
+  padding-left: 0;
+  padding-right: 0;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.Section.Appearance .Card {
+  padding: 0 10px 10px 10px;
+  position: relative;
+}
+
+.Section.Appearance .Card .CardInner {
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  background: url(https://img.freepik.com/free-photo/people-concert_1160-737.jpg?t=st=1730050734~exp=1730054334~hmac=4785251…&w=900)
+    no-repeat center center / cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  cursor: pointer;
+}
+
+.Section.Appearance .Card .CardInner .Cover {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: block;
+  background: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.2;
+}
+
+.Section.Appearance .Card .CardInner .Heading {
+  color: #fff;
+  z-index: 5;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.Section.Appearance .Card .CardInner .SubHeading {
+  color: #fff;
+  z-index: 5;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.Section.Appearance .Card .CardInner .IconContainer {
+  position: absolute;
+  z-index: 10;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  gap: 10px;
+}
+
+.Section.Appearance .Card .CardInner .IconContainer a {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  background: #fff;
+  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Section.Appearance .Card .CardInner .IconContainer a:nth-child(1) {
+  font-size: 15px;
+  color: #7a5a28;
+  text-decoration: none;
+}
+
+.Section.Appearance .Card .CardInner .IconContainer a:nth-child(2) {
+  font-size: 15px;
+  color: red;
+  text-decoration: none;
+}
+
+.Section.Appearance .Card .CardInner .IconContainer a:nth-child(3) {
+  font-size: 15px;
+  color: #7a5a28;
+  text-decoration: none;
+}
+
+.Section.Event {
+  padding-top: 90px;
+  padding-left: 0;
+  padding-right: 0;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.Section.Event .Card {
+  padding: 0 10px 10px 10px;
+  position: relative;
+}
+
+.Section.Event .Card .CardInner {
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  background: url(https://img.freepik.com/free-photo/people-concert_1160-737.jpg?t=st=1730050734~exp=1730054334~hmac=4785251…&w=900)
+    no-repeat center center / cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  cursor: pointer;
+  height: 250px;
+  justify-content: flex-end;
+}
+
+.Section.Event .Card .CardInner .Cover {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: block;
+  background: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.2;
+}
+
+.Section.Event .Card .CardInner .UserImage {
+  object-fit: cover;
+  width: 65px;
+  height: 65px;
+  z-index: 10;
+  border-radius: 100px;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+.Section.Event .Card .CardInner .Heading {
+  color: #fff;
+  z-index: 5;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.Section.Event .Card .CardInner .SubHeading {
+  color: #fff;
+  z-index: 5;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.Section.Event .Card .CardInner .IconContainer {
+  position: absolute;
+  z-index: 10;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  gap: 10px;
+}
+
+.Section.Event .Card .CardInner .IconContainer a {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  background: #fff;
+  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Section.Event .Card .CardInner .IconContainer a i.fa-pencil-square {
+  font-size: 15px;
+  color: #7a5a28;
+  text-decoration: none;
+}
+
+.Section.Event .Card .CardInner .IconContainer a i.fa-trash,
+.Section.Event .Card .CardInner .IconContainer a i.fa-heart,
+.Section.Event .Card .CardInner .IconContainer a i.fa-heart-o {
+  font-size: 15px;
+  color: red;
+  text-decoration: none;
+}
+
+.Section.Business {
+  padding-top: 90px;
+  padding-left: 0;
+  padding-right: 0;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.Section.Business .Card {
+  padding: 0 10px 10px 10px;
+  position: relative;
+}
+
+.Section.Business .Card .CardInner {
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  background: url(https://img.freepik.com/free-photo/people-concert_1160-737.jpg?t=st=1730050734~exp=1730054334~hmac=4785251…&w=900)
+    no-repeat center center / cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  cursor: pointer;
+  height: 250px;
+  justify-content: flex-end;
+}
+
+.Section.Business .Card .CardInner .Cover {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: block;
+  background: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.2;
+}
+
+.Section.Business .Card .CardInner .UserImage {
+  object-fit: cover;
+  width: 65px;
+  height: 65px;
+  z-index: 10;
+  border-radius: 100px;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+.Section.Business .Card .CardInner .Heading {
+  color: #fff;
+  z-index: 5;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.Section.Business .Card .CardInner .SubHeading {
+  color: #fff;
+  z-index: 5;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.Section.Business .Card .CardInner .IconContainer {
+  position: absolute;
+  z-index: 10;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  gap: 10px;
+}
+
+.Section.Business .Card .CardInner .IconContainer a {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  background: #fff;
+  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Section.Business .Card .CardInner .IconContainer a i.fa-pencil-square {
+  font-size: 15px;
+  color: #7a5a28;
+  text-decoration: none;
+}
+
+.Section.Business .Card .CardInner .IconContainer a i.fa-trash,
+.Section.Business .Card .CardInner .IconContainer a i.fa-heart,
+.Section.Business .Card .CardInner .IconContainer a i.fa-heart-o {
+  font-size: 15px;
+  color: red;
+  text-decoration: none;
+}
+
+/**************************/
+.Section .AddButton {
+  height: 50px;
+  background: #c5a668;
+  display: flex;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 10000;
+  bottom: 20px;
+  right: 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  border: none;
+  padding: 0 20px;
+}
+
+.Section .AddButton:hover {
+  background: linear-gradient(90deg, #b58b42, #7a5a28);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.btn-close:focus {
+  box-shadow: none;
+}
+
+.Section .AddButton i {
+  font-size: 25px;
+  color: #fff;
+}
+
+.Section .AddButton p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.Section .CustomModal .modal-header {
+  background: linear-gradient(-90deg, #b58b42, #7a5a28);
+}
+
+.Section .CustomModal .modal-header .modal-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.Section .CustomModal .modal-body .form-label {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #000000;
+  font-weight: 600;
+}
+
+.Section .CustomModal .modal-body input,
+.Section .CustomModal .modal-body select {
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.Section .CustomModal .modal-body textarea {
+  min-height: 100px;
+  font-size: 16px;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 10px;
+  outline: none;
+  background-color: rgb(245, 245, 245);
+  width: 100%;
+  height: 72px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+}
+
+.Section .CustomModal .modal-body .InnerData {
+  box-shadow: 0 0 10px #cfcfcf;
+  padding: 15px 10px 20px 10px;
+  border-radius: 10px;
+}
+
+.Section .CustomModal .modal-body .InnerData .Heading {
+  display: block;
+  text-align: left;
+  font-size: 15px;
+  color: #b38941;
+  font-weight: 600;
+  margin: 0;
+}
+
+.Section .CustomModal .modal-body .InnerData .ORText {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  color: #000000;
+  font-weight: 600;
+  margin: 0;
+}
+
+.Section .CustomModal .modal-body .InfoText {
+  font-size: 17px;
+  margin: 0;
+}
+
+.Section .CustomModal .modal-footer button {
+  height: 40px;
+  background: #c5a668;
+  display: flex;
+  border-radius: 10px;
+  z-index: 100;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.Section .CustomModal .modal-footer button:hover {
+  background: linear-gradient(90deg, #b58b42, #7a5a28);
+}
+
+.Section .CustomModal .PromotionDetail .PromotionImg img {
+  height: 50vh;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.Section .CustomModal .PromotionDetail .PromotionImg .IconContainer {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  background: #fff;
+  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 25px;
+  bottom: 10px;
+  cursor: pointer;
+}
+
+.Section .CustomModal .PromotionDetail .PromotionImg .IconContainer a {
+  font-size: 15px;
+  color: #7a5a28;
+  text-decoration: none;
+}
+
+.Section .CustomModal .PromotionDetail .PromotionData {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.Section .CustomModal .PromotionDetail .PromotionData .TitleText {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.Section .CustomModal .PromotionDetail .PromotionData .OwnerImg {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.Section .CustomModal .PromotionDetail .PromotionData .OwnerText {
+  margin: 0;
+  font-size: 14px;
+}
+
+.Section .CustomModal .PromotionDetail .PromotionData .BodyText {
+  margin: 15px 0 0 0;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.Section .CustomModal .PromotionDetail .PromotionData ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-block: 10px;
+}
+
+.Section .CustomModal .PromotionDetail .PromotionData ul li {
+  background: #fff;
+  padding: 5px 15px 5px 15px;
+  box-shadow: 0 0 10px #dddddd;
+  border-radius: 100px;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c5a668;
+}
+
+.Section .CustomModal .AppearanceData .BtnContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 15px;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.Section .CustomModal .AppearanceData .BtnContainer .btn {
+  background: #fff;
+  height: 45px;
+  border: 0;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  box-shadow: 0 0 10px #ddd;
+}
+
+.Section .CustomModal .AppearanceData .BtnContainer .btn:hover {
+  background: linear-gradient(90deg, #b58b42, #7a5a28);
+}
+
+.Section .CustomModal .AppearanceData .BtnContainer .btn:hover p {
+  color: #fff;
+}
+
+.Section .CustomModal .AppearanceData .BtnContainer .btn span {
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px 0 0 5px;
+  background: linear-gradient(90deg, #b58b42, #7a5a28);
+}
+
+.Section .CustomModal .AppearanceData .BtnContainer .btn span img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.Section .CustomModal .AppearanceData .BtnContainer .btn p {
+  font-size: 15px;
+  font-weight: 600;
+  color: #c5a668;
+  margin: 0;
+}
+
+.Section .CustomModal .AppearanceData .SmallDataBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px #ddd;
+  padding: 15px 10px;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.Section .CustomModal .AppearanceData .SmallDataBlock .Heading {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.Section .CustomModal .AppearanceData .SmallDataBlock .BlockData1 {
+  height: 45px;
+  border: 0;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 10px #ddd;
+  background: linear-gradient(90deg, #b58b42, #7a5a28);
+  border-radius: 5px;
+  padding-right: 15px;
+}
+
+.Section .CustomModal .AppearanceData .SmallDataBlock .BlockData2 {
+  height: 45px;
+  border: 0;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 5px;
+  padding-right: 15px;
+}
+
+.Section .CustomModal .PeopleContainer {
+}
+
+.Section .CustomModal .PeopleContainer .TopSection {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.Section .CustomModal .PeopleContainer .TopSection p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+}
+
+.Section .CustomModal .PeopleContainer .TopSection a {
+  text-decoration: none;
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Section .CustomModal .PeopleContainer .TopSection a img {
+  object-fit: contain;
+  height: 15px;
+  width: 15px;
+}
+
+.Section .CustomModal .PeopleContainer .PhotoSection {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.Section .CustomModal .PeopleContainer .PhotoSection img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.Section .CustomModal .PeopleContainer .PhotoSection img:nth-child(2) {
+  left: 20px;
+}
+
+.Section .CustomModal .PeopleContainer .PhotoSection img:nth-child(3) {
+  left: 40px;
+}
+
+.Section .CustomModal .PeopleContainer .PhotoSection img:nth-child(4) {
+  left: 60px;
+}
+
+.Section .CustomModal .PeopleContainer .PhotoSection img:nth-child(5) {
+  left: 80px;
+}
+
+.Section .CustomModal .PeopleContainer .PhotoSection img:nth-child(6) {
+  left: 100px;
+}
+
+.Section .CustomModal .PeopleContainer .PhotoSection img:nth-child(7) {
+  left: 120px;
+}
+
+.Section .CustomModal .PeopleContainer .PhotoSection img:nth-child(8) {
+  left: 140px;
+}
+
+.Section .CustomModal .PeopleContainer .PhotoSection img:nth-child(9) {
+  left: 160px;
+}
+
+.Section .CustomModal .PeopleContainer .PhotoSection .PhotoCount {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: #b48a42;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+  left: 180px;
+}
+
+.Section .CustomModal .PeopleContainer .PhotoSection .PhotoCount p {
+  margin: 0;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.Section
+  .CustomModal
+  .AppearanceData
+  .SmallDataBlock
+  .BlockData1
+  .BlockDataInner1,
+.Section
+  .CustomModal
+  .AppearanceData
+  .SmallDataBlock
+  .BlockData2
+  .BlockDataInner2 {
+  display: flex;
+  flex-direction: row;
+  height: 45px;
+  align-items: center;
+  gap: 15px;
+}
+
+.Section
+  .CustomModal
+  .AppearanceData
+  .SmallDataBlock
+  .BlockData1
+  .BlockDataInner1
+  span,
+.Section
+  .CustomModal
+  .AppearanceData
+  .SmallDataBlock
+  .BlockData2
+  .BlockDataInner2
+  span {
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px 0 0 5px;
+  background: linear-gradient(90deg, #b58b42, #7a5a28);
+}
+
+.Section
+  .CustomModal
+  .AppearanceData
+  .SmallDataBlock
+  .BlockData1
+  .BlockDataInner1
+  span
+  img,
+.Section
+  .CustomModal
+  .AppearanceData
+  .SmallDataBlock
+  .BlockData2
+  .BlockDataInner2
+  span
+  img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.Section
+  .CustomModal
+  .AppearanceData
+  .SmallDataBlock
+  .BlockData1
+  .BlockDataInner1
+  p,
+.Section .CustomModal .AppearanceData .SmallDataBlock .BlockData1 .Price1 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+}
+
+.Section
+  .CustomModal
+  .AppearanceData
+  .SmallDataBlock
+  .BlockData2
+  .BlockDataInner2
+  p,
+.Section .CustomModal .AppearanceData .SmallDataBlock .BlockData2 .Price2 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #c5a668;
+  margin: 0;
+}
+
+.Section .CustomModal .AppearanceData .SmallDataBlock .btn {
+  width: 100%;
+  height: 50px;
+  background: #c5a668;
+  border-radius: 10px;
+  border: none;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.Section .CustomModal .AppearanceData .SmallDataBlock .btn:hover {
+  background: linear-gradient(90deg, #b58b42, #7a5a28);
+}
+
+.Section .CustomModal .AppearanceData .QRBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px #ddd;
+  padding: 15px 10px;
+  border-radius: 10px;
+}
+
+.Section .CustomModal .AppearanceData .QRBlock p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.Section .CustomModal .AppearanceData .QRBlock img {
+  width: 100%;
+  object-fit: contain;
+  max-height: 250px;
+}
+
+.Section .CustomModal .EventPhotoContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.Section .CustomModal .EventPhotoContainer a {
+  text-decoration: none;
+  width: calc(100% / 4 - 10px);
+  height: 150px;
+}
+
+.Section .CustomModal .EventPhotoContainer a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.Section .CustomModal .EventPhotoContainer a.BlurrCover {
+  border-radius: 10px;
+  position: relative;
+}
+
+.Section .CustomModal .EventPhotoContainer a.BlurrCover .BlurrCoverData {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 10;
+  background: #0000008f;
+  border-radius: 10px;
+}
+
+.Section .CustomModal .EventPhotoContainer a.BlurrCover p {
+  margin: 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.Section .CustomModal .InvitedPeopleTab .nav-link {
+  border-radius: 15px 15px 0 0;
+  padding: 10px 20px;
+  background: #ffffff;
+  font-size: 15px;
+  color: #000000;
+  box-shadow: 0 0 10px #ddd;
+  min-width: 150px;
+  text-align: center;
+}
+
+.Section .CustomModal .InvitedPeopleTab .nav-link.active {
+  color: #fff;
+  border-radius: 15px 15px 0 0;
+  background: linear-gradient(90deg, #b58b42, #7a5a28);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.Section .CustomModal .SearchBarInner:focus {
+  box-shadow: none;
+}
+
+.Section .CustomModal .AllContain .AllContainBlock {
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.Section .CustomModal .AllContain .AllContainBlock .Data {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.Section .CustomModal .AllContain .AllContainBlock .Data img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.Section .CustomModal .AllContain .AllContainBlock .Data p {
+  margin: 0;
+  font-size: 15;
+  font-weight: 600;
+}
+
+.Section .CustomModal .AllContain .AllContainBlock a {
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Section .CustomModal .AllContain .AllContainBlock a img {
+  width: 17px;
+  height: 17px;
+  object-fit: contain;
+}
+
+.Section .CustomModal .InvitedContain .InvitedContainBlock {
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: linear-gradient(-90deg, #b58b42, #7a5a28);
+}
+
+.Section .CustomModal .InvitedContain .InvitedContainBlock .Data {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.Section .CustomModal .InvitedContain .InvitedContainBlock .Data img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.Section .CustomModal .InvitedContain .InvitedContainBlock .Data p {
+  margin: 0;
+  font-size: 15;
+  font-weight: 600;
+  color: #fff;
+}
+
+.Section .CustomModal .InvitedContain .InvitedContainBlock a {
+  background: #c5a668;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 50px;
+  text-decoration: none;
+  padding: 10px 20px;
+  pointer-events: none;
+}
+
+.Section.Subscription {
+  padding-top: 90px;
+  padding-left: 0;
+  padding-right: 0;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.Section .InnerTabContainer {
+  border-bottom: 2px solid #8d6a30;
+  padding: 0;
+}
+
+.Section .InnerTabData {
+  box-shadow: 0 5px 10px #ddd;
+  border-radius: 0 0 10px 10px;
+  padding-top: 10px;
+}
+
+.Section .InnerTabContainer li .nav-link {
+  border-radius: 15px 15px 0 0;
+  padding: 10px 20px;
+  background: #ffffff;
+  font-size: 15px;
+  color: #000000;
+  box-shadow: 0 0 10px #ddd;
+  min-width: 150px;
+  text-align: center;
+  border: 0;
+}
+
+.Section .InnerTabContainer li .nav-link.active {
+  color: #fff;
+  border-radius: 15px 15px 0 0;
+  background: linear-gradient(90deg, #b58b42, #7a5a28);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#SentAppearance {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Section .CustomModal .TransactionBlock {
+  box-shadow: 0 0 10px #f1f1f1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.Section .CustomModal .TransactionBlock .TransactionData {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  gap: 10px;
+}
+
+.Section .CustomModal .TransactionBlock .TransactionData img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.Section .CustomModal .TransactionBlock .TransactionData .TransactionTextdata {
+  display: flex;
+  flex-direction: column;
+}
+
+.Section
+  .CustomModal
+  .TransactionBlock
+  .TransactionData
+  .TransactionTextdata
+  p:nth-child(1) {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.Section
+  .CustomModal
+  .TransactionBlock
+  .TransactionData
+  .TransactionTextdata
+  p:nth-child(2) {
+  font-size: 12px;
+  color: #b8b8bb;
+}
+
+.Section
+  .CustomModal
+  .TransactionBlock
+  .TransactionData
+  .TransactionTextdata
+  p:nth-child(3) {
+  font-size: 12px;
+  color: #058952;
+}
+
+.Section .CustomModal .TransactionBlock .TransactionAmount {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  color: #058952;
+}
+
+.Section
+  .CustomModal
+  .TransactionBlock
+  .TransactionData
+  .TransactionTextdata
+  .Pending {
+  color: #c5a668 !important;
+}
+
+.Section .CustomModal .TransactionBlock .TransactionAmount.Red {
+  color: #ff0000;
+}
+
+.Section.Subscription .SubscriptionBlock {
+  background: linear-gradient(90deg, #b58b42, #7a5a28);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.Section.Subscription .SubscriptionBlock .SubscriptionHeadingBlock {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Section.Subscription .SubscriptionBlock .SubscriptionHeadingBlock h2 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.Section.Subscription .SubscriptionBlock .SubscriptionHeadingBlock p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.Section.Subscription .SubscriptionBlock ul {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.Section.Subscription .SubscriptionBlock ul li {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.Section.Subscription .SubscriptionBlock .SubscriptionBtnContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Section.Subscription
+  .SubscriptionBlock
+  .SubscriptionBtnContainer
+  .SubscriptionBtn {
+  background: #c5a668;
+  text-decoration: none;
+  padding: 0 30px;
+  border-radius: 100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Section.Subscription
+  .SubscriptionBlock
+  .SubscriptionBtnContainer
+  .SubscriptionBtn
+  p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0;
+}
+
+.Section.Subscription
+  .SubscriptionBlock
+  .SubscriptionBtnContainer
+  .LearnMoreBtn {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.Section.Subscription
+  .SubscriptionBlock
+  .SubscriptionBtnContainer
+  .SubscriptionBtn.ChooseBtn {
+  box-shadow: 0 0 10px #f1f1f1;
+  background: #fff;
+  text-decoration: none;
+  padding: 0 30px;
+  border-radius: 100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Section.Subscription
+  .SubscriptionBlock
+  .SubscriptionBtnContainer
+  .SubscriptionBtn.ChooseBtn
+  p {
+  color: #c5a668;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0;
+}
+
+.Section.Subscription .SubscriptionBlock .TransactionBlock {
+  box-shadow: 0 0 10px #858585;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  background: #fff;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.Section.Subscription .SubscriptionBlock .TransactionBlock .TransactionData {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  gap: 10px;
+  align-items: center;
+  width: calc(100% - 80px);
+}
+
+.Section.Subscription
+  .SubscriptionBlock
+  .TransactionBlock
+  .TransactionData
+  img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.Section.Subscription
+  .SubscriptionBlock
+  .TransactionBlock
+  .TransactionData
+  .TransactionTextdata {
+  font-size: 12px;
+  color: #000;
+}
+
+.Section.Subscription .SubscriptionBlock .TransactionBlock .TransactionAmount {
+  width: 80px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Section.Subscription
+  .SubscriptionBlock
+  .TransactionBlock
+  .TransactionAmount
+  p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #058952;
+}
+
+.Section.Subscription
+  .SubscriptionBlock
+  .TransactionBlock
+  .TransactionAmount
+  p.VipText {
+  color: #c5a668;
+  text-align: center;
+}
+
+.Section.Subscription .SubscriptionBlock .LearnMoreData {
+  display: none;
+}
+
+.Section.Business .CustomModal .BusinessAddFooter,
+.Section.Business .CustomModal .BusinessCategoryFooter,
+.Section.Business .CustomModal .BusinessProductFooter,
+.Section.Business .CustomModal .BusinessProductDataFooter,
+.Section.Business .CustomModal .BusinessServiceDataFooter {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+
+.Section.Business .CustomModal .BusinessCategoryFooter .CategoryBackBtn,
+.Section.Business .CustomModal .BusinessProductFooter .ProductFinalBtn,
+.Section.Business .CustomModal .BusinessProductDataFooter .ProductBackBtn,
+.Section.Business .CustomModal .BusinessServiceDataFooter .ServiceBackBtn {
+  background: #fff;
+  box-shadow: 0 0 10px #ddd;
+  color: #c5a668;
+}
+
+.Section.Business .CustomModal .BusinessAddFooter .AddProduct {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.Section.Business .CustomModal .BusinessAddFooter .AddProduct p {
+  font-size: 14px;
+  margin-bottom: 0;
+  color: #000000;
+  font-weight: 600;
+}
+
+.Section.Business .CustomModal .AddCategoryData p.CategoryNameList {
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 10px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 15px;
+}
+
+.Section.Business .CustomModal .AddCategoryData .AddBtn {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #c5a668;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.Section.Business .CustomModal .AddCategoryData .AddBtn:hover {
+  background: linear-gradient(-90deg, #b58b42, #7a5a28);
+}
+
+.Section.Business .CustomModal .AddCategoryData .CategoryDeleteBtn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
+
+.Section.Business .CustomModal .AddCategoryData .CategoryDeleteBtn i {
+  font-size: 15px;
+  color: red;
+  text-decoration: none;
+}
+
+.Section.Business .CustomModal .AddProductData {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Section.Business .CustomModal .AddProductData .ProductService {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 0;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.Section.Business .CustomModal .AddProductData .ProductService .DataBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Section.Business .CustomModal .AddProductData .ProductService .DataBlock img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.Section.Business .CustomModal .AddProductData .ProductService .DataBlock p {
+  font-size: 13px;
+  color: #8d8d8d;
+}
+
+.Section.Business .CustomModal .AddProductData .ProductService a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ddd;
+  height: 40px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.Section.Business .CustomModal .AddProductData .ProductService a p {
+  font-size: 15px;
+  font-weight: 600;
+  color: #c5a668;
+}
+
+.Section.Business .CustomModal .AddProductData .ProductContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 15px;
+  overflow: auto;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.Section.Business .CustomModal .AddProductData .ProductBlock .RemoveIcon {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  background: #fff;
+  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.Section.Business .CustomModal .AddProductData .ProductBlock .RemoveIcon i {
+  font-size: 15px;
+  color: red;
+  text-decoration: none;
+}
+
+.Section.Business .CustomModal .AddProductData .ProductBlock {
+  box-shadow: 0 0 10px #ddd;
+  width: 13%;
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.Section.Business .CustomModal .AddProductData .ProductBlock img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.Section.Business .CustomModal .AddProductData .ProductBlock .ProductTextBlock {
+  width: 100%;
+  height: calc(100% - 140px);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px 5px 5px 10px;
+}
+
+.Section.Business
+  .CustomModal
+  .AddProductData
+  .ProductBlock
+  .ProductTextBlock
+  .Heading {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.Section.Business
+  .CustomModal
+  .AddProductData
+  .ProductBlock
+  .ProductTextBlock
+  .Price {
+  font-size: 15px;
+  font-weight: 600;
+  color: #c5a668;
+}
+
+.Section.Business .CustomModal .ProductServiceSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 15px;
+  overflow: auto;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.Section.Business .CustomModal .ProductServiceSection .ProductBlock {
+  box-shadow: 0 0 10px #ddd;
+  width: 13%;
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.Section.Business
+  .CustomModal
+  .ProductServiceSection
+  .ProductBlock
+  a.RemoveIcon {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  background: #fff;
+  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.Section.Business
+  .CustomModal
+  .ProductServiceSection
+  .ProductBlock
+  a.RemoveIcon
+  i {
+  font-size: 15px;
+  color: red;
+  text-decoration: none;
+}
+
+.Section.Business .CustomModal .ProductServiceSection .ProductBlock img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.Section.Business
+  .CustomModal
+  .ProductServiceSection
+  .ProductBlock
+  .ProductTextBlock {
+  width: 100%;
+  height: calc(100% - 140px);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px 5px 5px 10px;
+}
+
+.Section.Business
+  .CustomModal
+  .ProductServiceSection
+  .ProductBlock
+  .ProductTextBlock
+  .Heading {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.Section.Business
+  .CustomModal
+  .ProductServiceSection
+  .ProductBlock
+  .ProductTextBlock
+  .Price {
+  font-size: 15px;
+  font-weight: 600;
+  color: #c5a668;
+}
+
+.Section.Business .CustomModal .ProductContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 15px;
+  overflow: auto;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.Section.Business .CustomModal .ProductContainer .ProductBlock {
+  box-shadow: 0 0 10px #ddd;
+  width: 13%;
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.Section.Business .CustomModal .ProductContainer .ProductBlock a.RemoveIcon {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  background: #fff;
+  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.Section.Business .CustomModal .ProductContainer .ProductBlock a.RemoveIcon i {
+  font-size: 15px;
+  color: red;
+  text-decoration: none;
+}
+
+.Section.Business .CustomModal .ProductContainer .ProductBlock img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.Section.Business
+  .CustomModal
+  .ProductContainer
+  .ProductBlock
+  .ProductTextBlock {
+  width: 100%;
+  height: calc(100% - 140px);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px 5px 5px 10px;
+}
+
+.Section.Business
+  .CustomModal
+  .ProductContainer
+  .ProductBlock
+  .ProductTextBlock
+  .Heading {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.Section.Business
+  .CustomModal
+  .ProductContainer
+  .ProductBlock
+  .ProductTextBlock
+  .Price {
+  font-size: 15px;
+  font-weight: 600;
+  color: #c5a668;
+}
+
+.Section.Business .CustomModal .ServiceContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 15px;
+  overflow: auto;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.Section.Business .CustomModal .ServiceContainer .ProductBlock {
+  box-shadow: 0 0 10px #ddd;
+  width: 13%;
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.Section.Business .CustomModal .ServiceContainer .ProductBlock a.RemoveIcon {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  background: #fff;
+  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.Section.Business .CustomModal .ServiceContainer .ProductBlock a.RemoveIcon i {
+  font-size: 15px;
+  color: red;
+  text-decoration: none;
+}
+
+.Section.Business .CustomModal .ServiceContainer .ProductBlock img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.Section.Business
+  .CustomModal
+  .ServiceContainer
+  .ProductBlock
+  .ProductTextBlock {
+  width: 100%;
+  height: calc(100% - 140px);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px 5px 5px 10px;
+}
+
+.Section.Business
+  .CustomModal
+  .ServiceContainer
+  .ProductBlock
+  .ProductTextBlock
+  .Heading {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.Section.Business
+  .CustomModal
+  .ServiceContainer
+  .ProductBlock
+  .ProductTextBlock
+  .Price {
+  font-size: 15px;
+  font-weight: 600;
+  color: #c5a668;
+}
+
+.ProductIconContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: absolute;
+  top: 10px;
+  right: 22px;
+}
+
+.ProductIconContainer a {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  background: #fff;
+  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px #ddd;
+}
+
+.ProductIconContainer a:nth-child(1) i {
+  font-size: 15px;
+  color: #7a5a28;
+  text-decoration: none;
+}
+
+.ProductIconContainer a:nth-child(2) i {
+  font-size: 15px;
+  color: red;
+  text-decoration: none;
+}
+
+.Section .CustomModal .ProductServiceSection .AddToCartBlock {
+  text-decoration: none;
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 10px;
+  background: #fff;
+  right: 10px;
+  z-index: 100;
+}
+
+.Section .CustomModal .ProductServiceSection .AddToCartBlock .ColorIcon,
+.Section .CustomModal .ProductServiceSection .AddToCartBlock .WhiteIcon {
+  width: 15px !important;
+  height: 15px !important;
+  object-fit: contain !important;
+}
+
+.Section .CustomModal .ProductServiceSection .AddToCartBlock .WhiteIcon {
+  display: none;
+}
+
+.Section .CustomModal .ProductServiceSection .AddToCartBlock:hover {
+  background: #c5a668;
+}
+
+.Section .CustomModal .ProductServiceSection .AddToCartBlock:hover .ColorIcon {
+  display: none;
+}
+
+.Section .CustomModal .ProductServiceSection .AddToCartBlock:hover .WhiteIcon {
+  display: block;
+}
+
+.Section .CustomModal .ProductBlock .AddToCartBlock {
+  text-decoration: none;
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 10px;
+  background: #fff;
+  right: 10px;
+}
+
+.Section .CustomModal .ProductBlock .AddToCartBlock .ColorIcon,
+.Section .CustomModal .ProductBlock .AddToCartBlock .WhiteIcon {
+  width: 15px !important;
+  height: 15px !important;
+  object-fit: contain !important;
+  border-radius: 0 !important;
+}
+
+.Section .CustomModal .ProductBlock .AddToCartBlock .WhiteIcon {
+  display: none;
+}
+
+.Section .CustomModal .ProductBlock .AddToCartBlock:hover {
+  background: #c5a668;
+}
+
+.Section .CustomModal .ProductBlock .AddToCartBlock:hover .ColorIcon {
+  display: none;
+}
+
+.Section .CustomModal .ProductBlock .AddToCartBlock:hover .WhiteIcon {
+  display: block;
+}
+
+.ProductIconContainer .QRBlock {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  background: #c5a668;
+  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px #ddd;
+}
+
+.ProductIconContainer .QRBlock .QRImg {
+  width: 15px !important;
+  height: 15px !important;
+  object-fit: contain !important;
+  border-radius: 0 !important;
+}
+
+.Section .CustomModal .QuantityAddBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 10px;
+  height: 40px;
+  flex-direction: row;
+  gap: 20px;
+  width: 70%;
+  margin-top: 20px;
+}
+
+.Section .CustomModal .QuantityAddBlock .QuantityTextHeading {
+  font-size: 16px;
+  font-weight: 600;
+  color: #c5a668;
+}
+
+.Section .CustomModal .QuantityAddBlock .QuantityContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+
+.Section .CustomModal .QuantityAddBlock .QuantityContainer a {
+  text-decoration: none;
+  color: #000;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.Section .CustomModal .QuantityAddBlock .QuantityContainer a i {
+  font-size: 13px;
+}
+
+.Section .CustomModal .QuantityAddBlock .QuantityContainer span {
+  width: 30px;
+  height: 30px;
+  background: #c5a668;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Section .CustomModal .QuantityAddBlock .QuantityContainer span .QuantityCount {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.Section .CustomModal .BtnContainer {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.Section .CustomModal .BtnContainer .BuyNowBtn {
+  height: 40px;
+  width: calc(100% - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c5a668;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Section .CustomModal .BtnContainer .BuyNowBtn:hover {
+  background: linear-gradient(-90deg, #b58b42, #7a5a28);
+}
+
+.Section .CustomModal .BtnContainer .BuyNowBtn p {
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.Section .CustomModal .BtnContainer .AddToCartBtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  background: #fff;
+  box-shadow: 0 0 10px #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Section .CustomModal .BtnContainer .AddToCartBtn img {
+  object-fit: contain;
+  width: 20px;
+  height: 20px;
+}
+
+.Business .BusinessQRImg {
+  max-height: 400px !important;
+}
+
+.notifyjs-corner {
+  z-index: 9999999999 !important;
+}
+
+.CartProductBlock {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  gap: 15px;
+  position: relative;
+}
+
+.CartProductBlock .CartProductImg {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.CartProductBlock .CartProductDataBlock {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.CartProductBlock .CartProductDataBlock .CartProductTextBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.CartProductBlock .CartProductDataBlock .CartProductTextBlock .ProductName {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.CartProductBlock .CartProductDataBlock .CartProductTextBlock .ProductPrice {
+  font-size: 16px;
+  font-weight: 600;
+  color: #c8a868;
+}
+
+.CartProductBlock .CartProductCountBlock {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.CartProductBlock .CartProductCountBlock a {
+  background: #fff;
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 100px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.CartProductBlock .CartProductCountBlock a i {
+  color: #000;
+  font-size: 14px;
+}
+
+.CartProductBlock .CartProductCountBlock .CartCount {
+  color: #c8a868;
+  font-size: 16px;
+  font-weight: 600;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CartProductBlock .CartProductDataBlock .CartDeleteBtn {
+  position: absolute;
+  top: 10px;
+  background: #fff;
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  right: 10px;
+}
+
+.CartProductBlock .CartProductDataBlock img {
+  object-fit: contain;
+  width: 20px;
+  height: 20px;
+}
+
+.Pagination.BuyNowSectionPagination {
+  position: sticky;
+  top: -20px;
+  z-index: 100;
+  padding-bottom: 10px;
+  background: #ffffff;
+  padding-top: 30px;
+}
+
+.CartPriceContainer {
+  background: #fff;
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.CartPriceContainer .CartPriceData {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CartPriceContainer .CartPriceData .Heading {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.CartPriceContainer .CartPriceData .Amount {
+  font-size: 16px;
+  font-weight: 600;
+  color: #c8a868;
+}
+
+.CartPriceContainer .CheckoutBtn {
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  background: #c8a868;
+  text-decoration: none;
+}
+
+.CartPriceContainer .CheckoutBtn:hover {
+  background: linear-gradient(90deg, #b58b42, #7a5a28);
+}
+
+.CartPriceContainer .CheckoutBtn .CheckoutBtnText {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.CartContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+}
+
+.Section.Network {
+  padding-top: 90px;
+  padding-left: 0;
+  padding-right: 0;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.Section.NetworkProfile {
+  padding-top: 90px;
+  padding-left: 0;
+  padding-right: 0;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.NetworkCartBlock {
+  background: #fff;
+  box-shadow: 0 0 10px #ddd;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 90px;
+  border-radius: 10px;
+  overflow: hidden;
+  justify-content: space-between;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.NetworkCartBlock .UserDetails {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.NetworkCartBlock .UserDetails img {
+  height: 90px;
+  width: 90px;
+  object-fit: cover;
+}
+
+.NetworkCartBlock .UserDetails p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.NetworkCartBlock .BtnDetails {
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.NetworkCartBlock .BtnDetails .NameTag {
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 100px;
+  height: 40px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+
+.NetworkCartBlock .BtnDetails .NameTag p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #c5a668;
+}
+
+.NetworkCartBlock .BtnDetails .LikeBtn {
+  text-decoration: none;
+  text-decoration: none;
+  box-shadow: 0 0 10px #ddd;
+  background: #fff;
+  border-radius: 100px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.NetworkCartBlock .BtnDetails .LikeBtn img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.TabContent .ProfileDataBlock:not(:first-child) {
+  margin-top: 20px;
+}
+
+.ProfileDataBlock .HeadingText {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ProfileDataBlock .SubHeadingText {
+  margin: 15px 0 0 0;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.ProfileDataBlock ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-block: 10px;
+}
+
+.ProfileDataBlock ul li {
+  background: #fff;
+  padding: 5px 15px 5px 15px;
+  box-shadow: 0 0 10px #dddddd;
+  border-radius: 100px;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c5a668;
+}
+
+.NetworkProfile .EventPhotoContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.NetworkProfile .EventPhotoContainer a {
+  text-decoration: none;
+  width: calc(100% / 4 - 10px);
+  height: 150px;
+}
+
+.NetworkProfile .EventPhotoContainer a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.NetworkProfile .Card {
+  padding: 0 10px 10px 10px;
+  position: relative;
+}
+
+.NetworkProfile .Card .CardInner {
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  background: url(https://img.freepik.com/free-photo/people-concert_1160-737.jpg?t=st=1730050734~exp=1730054334~hmac=4785251…&w=900)
+    no-repeat center center / cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  cursor: pointer;
+  height: 250px;
+  justify-content: flex-end;
+}
+
+.NetworkProfile .Card .CardInner .Cover {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: block;
+  background: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.2;
+}
+
+.NetworkProfile .Card .CardInner .UserImage {
+  object-fit: cover;
+  width: 65px;
+  height: 65px;
+  z-index: 10;
+  border-radius: 100px;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+.NetworkProfile .Card .CardInner .Heading {
+  color: #fff;
+  z-index: 5;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.NetworkProfile .Card .CardInner .SubHeading {
+  color: #fff;
+  z-index: 5;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.NetworkProfile .Card .CardInner .IconContainer {
+  position: absolute;
+  z-index: 10;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  gap: 10px;
+}
+
+.NetworkProfile .Card .CardInner .IconContainer a {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  background: #fff;
+  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.NetworkProfile .Card .CardInner .IconContainer a i.fa-heart {
+  font-size: 15px;
+  color: red;
+  text-decoration: none;
+}
+
+.UserProfileDataContainer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  height: 290px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.UserProfileDataContainer .AddBanner {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.UserProfileDataContainer .LikeBtnBlock {
+  position: absolute;
+  background: #fff;
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 100px;
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 35px;
+  left: 30px;
+}
+
+.UserProfileDataContainer .LikeBtnBlock img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.UserProfileDataContainer .UserProfileImg {
+  position: absolute;
+  right: -65px;
+  width: 150px;
+  height: 150px;
+  border-radius: 200px;
+  border: 3px solid #fff;
+}
+
+.UserDataContainer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-left: 100px;
+  justify-content: space-between;
+}
+
+.UserDataContainer .UserName {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.UserDataContainer .UserNameTag {
+  font-size: 16px;
+  font-weight: 600;
+  color: #c5a668;
+  text-transform: uppercase;
+}
+
+.UserDataContainer .UserAddBtn {
+  text-decoration: none;
+  background: #dfba68;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+
+.UserDataContainer .UserAddBtn:hover {
+  background: linear-gradient(90deg, #b58b42, #7a5a28);
+}
+
+.UserDataContainer .UserAddBtn p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.NetworkProfile .AddAdvertisementFooter,
+.NetworkProfile .AddAdvertisementPlanFooter,
+.NetworkProfile .AddAdvertisementPlanDetailsFooter {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+
+.NetworkProfile .AddAdvertisementPlanFooter .SelectPlanDetailsBtnBack,
+.NetworkProfile
+  .AddAdvertisementPlanDetailsFooter
+  .SelectPlanWholeDetailsBtnBack {
+  background: #fff !important;
+  box-shadow: 0 0 10px #ddd;
+  color: #000 !important;
+}
+
+.NetworkProfile .AddAdvertisementFooter .SelectPlanBtn,
+.NetworkProfile .AddAdvertisementPlanFooter .SelectPlanDetailsBtn {
+  background: #fff;
+  box-shadow: 0 0 10px #ddd;
+  color: #c5a668;
+}
+
+.AddAdvertisementPlanDetails .LearnMoreData {
+  display: none;
+}
+
+.AddAdvertisementPlanDetails .LearnMoreData .TransactionBlock {
+  box-shadow: 0 0 10px #f1f1f1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin-bottom: 15px;
+}
+
+.AddAdvertisementPlanDetails
+  .LearnMoreData
+  .TransactionBlock:nth-last-child(1) {
+  margin-bottom: 0;
+}
+
+.AddAdvertisementPlanDetails .LearnMoreData .TransactionBlock .TransactionData {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  gap: 10px;
+  align-items: center;
+}
+
+.AddAdvertisementPlanDetails
+  .LearnMoreData
+  .TransactionBlock
+  .TransactionData
+  img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.AddAdvertisementPlanDetails
+  .LearnMoreData
+  .TransactionBlock
+  .TransactionData
+  .TransactionTextdata {
+  display: flex;
+  flex-direction: column;
+}
+
+.AddAdvertisementPlanDetails
+  .LearnMoreData
+  .TransactionBlock
+  .TransactionData
+  .TransactionTextdata
+  p:nth-child(1) {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.AddAdvertisementPlanDetails
+  .LearnMoreData
+  .TransactionBlock
+  .TransactionData
+  .TransactionTextdata
+  p:nth-child(2) {
+  font-size: 12px;
+  color: #b8b8bb;
+}
+
+.AddAdvertisementPlanDetails
+  .LearnMoreData
+  .TransactionBlock
+  .TransactionData
+  .TransactionTextdata
+  p:nth-child(3) {
+  font-size: 12px;
+  color: #058952;
+}
+
+.AddAdvertisementPlanDetails
+  .LearnMoreData
+  .TransactionBlock
+  .TransactionAmount {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  color: #058952;
+}
+
+.AddAdvertisementPlanDetails
+  .LearnMoreData
+  .TransactionBlock
+  .TransactionData
+  .TransactionTextdata
+  .Pending {
+  color: #c5a668 !important;
+}
+
+.AddAdvertisementPlanDetails
+  .LearnMoreData
+  .TransactionBlock
+  .TransactionAmount.Red {
+  color: #ff0000;
+}
+
+.AddAdvertisementPlanDetails
+  .LearnMoreData
+  .TransactionBlock
+  .TransactionAmount
+  p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #058952;
+}
+
+.AddAdvertisementPlanDetails
+  .LearnMoreData
+  .TransactionBlock
+  .TransactionAmount
+  p.VipText {
+  color: #c5a668;
+  text-align: center;
+  font-size: 16px;
+}
+
+.AddAdvertisementPlanDetails
+  .LearnMoreData
+  .TransactionBlock
+  .TransactionData
+  .TransactionTextdata {
+  font-size: 14px;
+}
+
+.AddAdvertisementPlan .SubscriptionBlock {
+  background: linear-gradient(90deg, #b58b42, #7a5a28);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.AddAdvertisementPlan .SubscriptionBlock .SubscriptionHeadingBlock {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.AddAdvertisementPlan .SubscriptionBlock .SubscriptionHeadingBlock h2 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.AddAdvertisementPlan .SubscriptionBlock .SubscriptionHeadingBlock p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.AddAdvertisementPlan .SubscriptionBlock ul {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.AddAdvertisementPlan .SubscriptionBlock ul li {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.AddAdvertisementPlan .SubscriptionBlock .SubscriptionBtnContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.AddAdvertisementPlan
+  .SubscriptionBlock
+  .SubscriptionBtnContainer
+  .SubscriptionBtn {
+  background: #c5a668;
+  text-decoration: none;
+  padding: 0 30px;
+  border-radius: 100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AddAdvertisementPlan
+  .SubscriptionBlock
+  .SubscriptionBtnContainer
+  .SubscriptionBtn
+  p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0;
+}
+
+.AddAdvertisementPlan
+  .SubscriptionBlock
+  .SubscriptionBtnContainer
+  .AdvertisementLearnMoreBtn {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.AddAdvertisementPlanContainer {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  overflow-y: hidden;
+}
+
+.Section.ProfileTab {
+  padding-top: 90px;
+  padding-left: 0;
+  padding-right: 0;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.ProfileTab .EventPhotoContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.ProfileTab .EventPhotoContainer a {
+  text-decoration: none;
+  width: calc(100% / 4 - 10px);
+  height: 150px;
+}
+
+.ProfileTab .EventPhotoContainer a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.ProfileTab .EventPhotoContainer a.BlurrCover {
+  border-radius: 10px;
+  position: relative;
+}
+
+.ProfileTab .EventPhotoContainer a.BlurrCover .BlurrCoverData {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 10;
+  background: #0000008f;
+  border-radius: 10px;
+}
+
+.ProfileTab .EventPhotoContainer a.BlurrCover p {
+  margin: 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.ProfileImageContainer {
+  position: absolute;
+  right: -65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ProfileImageContainer .ProfileImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 200px;
+  border: 3px solid #fff;
+}
+
+.NoDataFound {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #c5a668;
+}
+
+.ProfileBtnContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+
+.ProfileBtnContainer a {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 45px;
+  border-radius: 10px;
+  background: #ffffff;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px #ddd;
+  text-decoration: none;
+  gap: 10px;
+}
+
+.ProfileBtnContainer img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+
+.ProfileBtnContainer p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #c5a668;
+}
+
+.ChangeImgBtnContainer {
+  position: absolute;
+  bottom: -20px;
+  width: 40px;
+  height: 40px;
+}
+
+.ChangeImgBtnContainer .ImgInputField {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  position: absolute;
+  z-index: 1;
+  border: none;
+  background: #c5a668;
+  overflow: hidden !important;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.ChangeImgBtnContainer .ChangeImgBtnCover {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  background: #c8aa6f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 0;
+}
+
+.ChangeImgBtnContainer .ChangeImgBtnCover img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.HeaderProfileBtn.Active {
+  background: none !important;
+  box-shadow: none !important;
+}
+/********** login & signup page **********/
+.login_signup .ls_banner img {
+    object-fit: cover;
+}
+
+.login_signup .ls_banner h1 {
+    color: #fff;
+    font-size: 25px;
+    padding: 0 50px;
+    line-height: 40px;
+    z-index: 2;
+    bottom: 100px;
+}
+
+.login_signup .ls_form .form_data img {
+    width: 250px;
+    height: 80px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 170px;
+}
+
+.login_signup .ls_form .form_data .input-data {
+    flex-direction: column;
+}
+
+.login_signup .ls_form .form_data .input-data label.form-label {
+    top: -10px;
+    left: 15px;
+    padding: 0 10px;
+    background: #fff;
+}
+
+.login_signup .ls_form .form_data .input-data input.form-control,
+.login_signup .ls_form .form_data .input-data select.form-control {
+    padding-left: 25px;
+    color: #000;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.login_signup .ls_form .form_data .remember_me label {
+    font-weight: 500;
+}
+
+.login_signup .ls_form .form_data .forgot_pass a {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.login_signup .ls_form .form_data .login_card .login_btn button.btn {
+    background-color: green;
+    border: 0;
+    color: #fff;
+    font-weight: 500;
+}
+
+.login_signup .ls_form .form_data .login_card .login_btn button.btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.login_signup .ls_form .form_data .login_card .signup_btn button.btn {
+    border-color: green;
+    color: green;
+    font-weight: 500;
+}
+
+.login_signup .ls_form .form_data .signup_card .login_btn button.btn {
+    border-color: green;
+    color: green;
+    font-weight: 500;
+}
+
+.login_signup .ls_form .form_data .signup_card .signup_btn button.btn {
+    background-color: green;
+    border: 0;
+    color: #fff;
+    font-weight: 500;
+}
+
+.login_signup .ls_form .form_data .forgot_password .forgot_btn button.btn {
+    background-color: green;
+    border: 0;
+    color: #fff;
+    font-weight: 500;
+}
+
+.login_signup .ls_form .form_data .forgot_password .back_btn button.btn {
+    border-color: green;
+    color: green;
+    font-weight: 500;
+}
+
+.login_signup .ls_form .form_data .showPass {
+    bottom: 12px;
+    right: 15px;
+}
+
+.login-hide {
+    display: none;
+}
+
+.signup-show {
+    display: contents !important;
+}

@@ -1,0 +1,39 @@
+.jqueryHashtags .highlighter{
+  white-space: pre-wrap !important;
+	color:transparent !important;
+	overflow: hidden !important; 
+	position: absolute !important;
+	padding-left:7px !important;
+	padding-top:5px !important; 
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	font-size:14px !important;
+	line-height:20px !important;
+}
+
+.jqueryHashtags .theSelector{
+	background-color: transparent !important; 
+	position: relative !important; 
+	direction: ltr !important; 
+	font-size:14px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	resize:none !important;
+	-webkit-transition: height 0.2s !important;
+	border: 1px solid #cccccc !important;
+	-webkit-border-radius: 4px !important;
+	-moz-border-radius: 4px !important;
+	border-radius: 4px !important;
+	padding: 4px 6px !important;
+	vertical-align:middle !important;
+	min-height:48px !important;
+	line-height:20px !important;
+}
+
+.jqueryHashtags .hashtag{
+	background: -webkit-linear-gradient(#dce6f8, #bdcff1) !important;
+	border-radius: 2px !important;
+	box-shadow: 0 0 0 1px #a3bcea !important;
+	font-size:14px !important;
+	white-space: pre-wrap !important;
+	word-break: break-word !important;
+	line-height:20px !important;
+}
